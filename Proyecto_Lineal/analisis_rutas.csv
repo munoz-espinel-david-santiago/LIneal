@@ -1,0 +1,6 @@
+Ruta,Descripción,Latencia (ms),Saltos,Cuello Botella,Capacidad Mínima (Gbps),Cumple Capacidad,Costo (ms·Gbps)
+A → B → E → F,Óptima (linprog),28,3,A-B,100,✓ SÍ,1120
+A → B → D → F,Alternativa 1,35,3,B-D,50,✓ SÍ,1400
+A → C → D → F,Alternativa 2,47,3,D-F,60,✓ SÍ,1880
+A → C → D → E → F,Alternativa 3,41,4,A-C,80,✓ SÍ,1640
+A → B → D → E → F,Alternativa 4,29,4,B-D,50,✓ SÍ,1160
